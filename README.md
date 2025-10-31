@@ -27,16 +27,19 @@ AI Policy Generator is a React web application designed to help organizations ge
 ### Setup Steps
 
 1. Clone the repository:
-git clone https://github.com/yourusername/ai-policy-generator.git
+git clone https://github.com/Adithya2401/Ai-Policy_generator.git
 cd ai-policy-generator
 
-2. Install dependencies:
+3. Install dependencies:
 npm install
 
-3. Create a `.env` file at the root and specify your API URL:
-REACT_APP_API_URL=http://localhost:5000/api
+4. Create The API Key you want to use and paste the key in .env file and application.yml files
+In .env file
+GENERATE_API_KEY = YOUR_API_KEY
+In Application.yml file
+api = YOUR_API_KEY
 
-4. Start the development server:
+5. Start the development server:
 npm start
 
 The app will be accessible at `http://localhost:3000`.
