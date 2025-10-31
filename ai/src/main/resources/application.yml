@@ -15,5 +15,5 @@ server:
   port: 8081
 gemini:
   api:
-    key: AIzaSyAw1KaqukUyme116Y3zBcz53Hsjfjg-B1A
+    key: YOUR_API_KEY
 
